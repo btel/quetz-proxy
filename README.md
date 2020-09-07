@@ -1,6 +1,8 @@
 # quetz-proxy
 
-Caching proxy for quetz
+Caching proxy for quetz.
+
+It implements the protocol described in the [Proposal 1](https://hackmd.io/kgifxnZ7SFupZkWjwsUxnw?view#Proposal-1-Lazy-proxy)
 
 ## Installing
 
@@ -33,4 +35,5 @@ conda activate quetz-proxy-test
 Then install the `xtensor` package using the proxy server as the channel:
 
 ```
-conda install --strict-channel-priority xtensor -c http://localhost:8002/channels/channel0 -c conda-forge```
+conda install --strict-channel-priority xtensor -c http://localhost:8002/channels/channel0 -c conda-forge
+```
