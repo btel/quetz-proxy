@@ -12,7 +12,7 @@ pip install fastapi requests
 
 ## Usage
 
-Follow the instructions in quetz []() to install and configure quetz. Run the server with the command (from quetz directory):
+Follow the instructions in quetz [README](https://github.com/TheSnakePit/quetz/blob/master/README.md) to install and configure quetz. Run the server with the command (from quetz directory):
 
 ```
 > quetz start test_quetz
